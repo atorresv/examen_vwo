@@ -1,0 +1,385 @@
+#+TITLE: 
+#+STARTUP: hidestars
+#+OPTIONS: ^:nil
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup
+#+HTML_HEAD: <style>
+#+HTML_HEAD: body {
+#+HTML_HEAD:   max-width: 1200px; /* Change to your desired width */
+#+HTML_HEAD:   margin: 0 auto;    /* Center the content */
+#+HTML_HEAD: }
+#+HTML_HEAD: </style>
+
+
+
+
+* A Vaardigheden
+* B Golven
+** B1 Informatieoverdracht
+
+\[
+f = \frac{1}{T} \tag{1}
+\]
+
+\[
+v = f\lambda \tag{2}
+\]
+
+\[
+T = 2\pi \sqrt{\frac{m}{C}} \tag{3}
+\]
+
+\[
+F_{\text{res}} = -c \dot{u} \tag{4}
+\]
+
+\[
+\Delta \varphi = \frac{\Delta t}{T} \tag{5}
+\]
+
+\[
+\Delta \varphi = \frac{\Delta x}{\lambda} \tag{6}
+\]
+
+\[
+v_{\text{max}} = \frac{2\pi A}{T} \tag{7}
+\]
+
+\[
+u = A \sin \left( \frac{2\pi}{T} t \right) \tag{8}
+\]
+
+
+
+\[
+\ell = n \frac{1}{2} \lambda \tag{1}
+\]
+
+\[
+\ell = (2n - 1) \frac{1}{4} \lambda \tag{2}
+\]
+
+
+
+** B2 Medische beeldvorming
+
+\[
+E_f = hf \tag{1}
+\]
+
+\[
+c = f\lambda \tag{2}
+\]
+
+\[
+A = -\frac{dN}{dt} \tag{3}
+\]
+
+\[
+A = \frac{\ln 2}{t_{\frac{1}{2}}} N \tag{4}
+\]
+
+\[
+D = \frac{E}{m} \tag{5}
+\]
+
+\[
+H = w_R D \tag{6}
+\]
+
+\[
+A = N + Z \tag{7}
+\]
+
+\[
+A = A_0 \left( \frac{1}{2} \right)^{\frac{t}{t_{\frac{1}{2}}}} \tag{8}
+\]
+
+\[
+N = N_0 \left( \frac{1}{2} \right)^{\frac{t}{t_{\frac{1}{2}}}} \tag{9}
+\]
+
+\[
+I = I_0 \left( \frac{1}{2} \right)^{\frac{d}{d_{\frac{1}{2}}}} \tag{10}
+\]
+
+
+* C Beweging en wisselwerking
+** 	C1 Kracht en beweging
+
+\[
+s = vt, \quad \text{met } v \text{ constant} \tag{1}
+\]
+
+\[
+v_{\text{gem}} = \frac{\Delta x}{\Delta t}, \quad a_{\text{gem}} = \frac{\Delta v}{\Delta t} \tag{2}
+\]
+
+\[
+v = \frac{dx}{dt}, \quad a = \frac{dv}{dt} \tag{3}
+\]
+
+\[
+F_z = mg \tag{4}
+\]
+
+\[
+F_v = Cu \tag{5}
+\]
+
+\[
+\rho = \frac{m}{V} \tag{6}
+\]
+
+\[
+F_{w,\ell} = \frac{1}{2} \rho c_w A v^2 \tag{7}
+\]
+
+\[
+F_{\text{res}} = \sum_i F_i = ma \tag{8}
+\]
+
+\[
+F_{w,s, \max} = f F_N \tag{9}
+\]
+
+\[
+F_{AB} = -F_{BA} \tag{10}
+\]
+
+
+** 	C2 Energie en wisselwerking
+
+\[
+W = Fs \cos \alpha \tag{1}
+\]
+
+\[
+P = \frac{E}{t} \tag{2}
+\]
+
+\[
+P = \frac{W}{t} \tag{3}
+\]
+
+\[
+P = Fv \tag{4}
+\]
+
+\[
+E_k = \frac{1}{2} m v^2 \tag{5}
+\]
+
+\[
+E_z = mgh \tag{6}
+\]
+
+\[
+E_{\text{ch}} = r_v V \tag{7}
+\]
+
+\[
+E_{\text{ch}} = r_m m \tag{8}
+\]
+
+\[
+E_v = \frac{1}{2} C u^2 \tag{9}
+\]
+
+\[
+\sum W = \Delta E_k \tag{10}
+\]
+
+\[
+\sum E_{\text{in}} = \sum E_{\text{uit}} \tag{11}
+\]
+
+\[
+\eta = \frac{E_{\text{nuttig}}}{E_{\text{in}}} = \frac{P_{\text{nuttig}}}{P_{\text{in}}} \tag{12}
+\]
+
+
+** 	C3 Gravitatie
+
+\[
+F_g = G \frac{mM}{r^2} \tag{1}
+\]
+
+\[
+E_g = -G \frac{mM}{r} \tag{2}
+\]
+
+\[
+F_{\text{mpz}} = \frac{m v^2}{r} \tag{3}
+\]
+
+\[
+v = \frac{2\pi r}{T} \tag{4}
+\]
+
+
+* D Lading en veld
+** D1 Elektrische systemen
+
+\[
+I = \frac{Q}{t} \tag{1}
+\]
+
+\[
+U = \frac{\Delta E}{Q} \tag{2}
+\]
+
+\[
+\rho = \frac{R A}{\ell} \tag{3}
+\]
+
+\[
+U = IR \tag{4}
+\]
+
+\[
+U_{\text{tot}} = U_1 + U_2 + \dots \tag{5}
+\]
+
+\[
+I_{\text{tot}} = I_1 = I_2 = \dots \tag{6}
+\]
+
+\[
+R_{\text{tot}} = R_1 + R_2 + \dots \tag{7}
+\]
+
+\[
+U_{\text{tot}} = U_1 = U_2 = \dots \tag{8}
+\]
+
+\[
+I_{\text{tot}} = I_1 + I_2 + \dots \tag{9}
+\]
+
+\[
+\frac{1}{R_{\text{tot}}} = \frac{1}{R_1} + \frac{1}{R_2} + \dots \tag{10}
+\]
+
+\[
+P = UI \tag{11}
+\]
+
+\[
+E = Pt \tag{12}
+\]
+
+\[
+\eta = \frac{E_{\text{nuttig}}}{E_{\text{in}}} = \frac{P_{\text{nuttig}}}{P_{\text{in}}} \tag{13}
+\]
+
+
+** D2 Elektrische en magnetische velden
+
+
+\[
+F_{\text{el}} = f \frac{q Q}{r^2} \tag{1}
+\]
+
+\[
+F_{\text{el}} = qE \tag{2}
+\]
+
+\[
+\Delta E_k = -\Delta E_{\text{el}} \tag{3}
+\]
+
+\[
+\Delta E_{\text{el}} = qU \tag{4}
+\]
+
+\[
+F_L = BI\ell \tag{5}
+\]
+
+\[
+F_L = Bqv \tag{6}
+\]
+
+\[
+\Phi = B_{\perp} A \tag{7}
+\]
+
+\[
+U_{\text{ind}} \propto N \tag{8}
+\]
+
+\[
+U_{\text{ind}} \propto \frac{d\Phi}{dt} \tag{9}
+\]
+
+
+* E Straling en materie
+** E2 Straling en materie
+
+
+\[
+E_f = hf \tag{1}
+\]
+
+\[
+E_f = \frac{hc}{\lambda} \tag{2}
+\]
+
+\[
+E_f = |E_m - E_n| \tag{3}
+\]
+
+\[
+E = mc^2 \tag{4}
+\]
+
+\[
+v = \frac{\Delta \lambda}{\lambda} c \tag{5}
+\]
+
+\[
+\lambda_{\text{max}} T = k_W \tag{6}
+\]
+
+\[
+I = \frac{P_{\text{bron}}}{4 \pi r^2} \tag{7}
+\]
+
+\[
+P_{\text{bron}} = \sigma A T^4 \tag{8}
+\]
+
+
+** E3 Kern- en deeltjesprocessen (beperkte keuze)
+* F Quantumwereld en relativiteit
+** F1 Quantumwereld 
+
+\[
+p = mv \tag{1}
+\]
+
+\[
+\lambda = \frac{h}{p} \quad \lambda = \frac{h}{mv} \tag{2}
+\]
+
+\[
+d \sin \alpha_n = n\lambda \tag{3}
+\]
+
+\[
+E_f = hf \tag{4}
+\]
+
+\[
+E_n = \frac{-13.6}{n^2} \quad \text{(in eV)} \tag{5}
+\]
+
+\[
+E_n = n^2 \frac{h^2}{8mL^2} \tag{6}
+\]
+
+
+** F2 relativiteit (beperkte keuze)
+
+* H Natuurwetten en modellen
+** Modelleren
