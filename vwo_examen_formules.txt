@@ -51,11 +51,11 @@ u = A \sin \left( \frac{2\pi}{T} t \right) \tag{8}
 
 
 \[
-\ell = n \frac{1}{2} \lambda \tag{1}
+\ell = n \frac{1}{2} \lambda \tag{9}
 \]
 
 \[
-\ell = (2n - 1) \frac{1}{4} \lambda \tag{2}
+\ell = (2n - 1) \frac{1}{4} \lambda \tag{10}
 \]
 
 
