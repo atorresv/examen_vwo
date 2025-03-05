@@ -73,7 +73,6 @@
 | 27           | Quantum-tunneleffect                                                  | Kies de juiste schatting van de luchtspleetbreedte en licht dit toe.                                                | Begrip van tunneling en kwantumfysica.                                            |
 
 * NAV171VB.TXT
-Hier is een tabel met een overzicht van de betrokken voorwerpen of concepten en wat er berekend of gedaan moet worden bij elk van de vragen uit het examen:
 
 | Vraagnummer | Betrokken Voorwerpen/Concepten                                      | Wat moet je doen of berekenen?                                                                                  | Benodigde kennis/vaardigheden                                                  |
 |------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
@@ -103,7 +102,7 @@ Hier is een tabel met een overzicht van de betrokken voorwerpen of concepten en 
 | 24           | Kwadratenwet, absorptie, stralingseffecten                           | Geef aan wie van de leerlingen (Erik, Myrthe, Frank) gelijk heeft.                                                   | Begrip van straling, absorptie en ioniserend effect.                                |
 | 25           | Eisen voor bestralingseffectiviteit                                  | Geef aan welke eisen gelden voor dikte en uittree-energie van de coating om emissie te maximaliseren.                 | Analyse van stralingseffecten en optimalisatie.                                     |
 
-Laat weten of je bij een specifieke vraag meer uitleg nodig hebt!
+
 * NAV172VB.TXT
 
 | Vraagnummer | Betrokken Voorwerpen/Concepten                                    | Wat moet je doen of berekenen?                                                                                     | Benodigde kennis/vaardigheden                                                |
@@ -479,7 +478,6 @@ Laat weten of je bij een specifieke vraag meer uitleg nodig hebt!
 | 26               | Hawkingstraling, vermogen-massa-relatie                      | Toon aan dat \( P \propto \frac{1}{M^2} \).                                                                                                   | Toepassing van Planckwet en gravitatiewetten.                                        |
 | 27               | Hawkingstraling, massa-verlies                               | Leg uit welke grafiek het juiste verband geeft tussen massa en tijd.                                                                          | Begrip van energieafname en exponentiële relaties.                                    |
 * NAV241VB.TXT
-Hier is een tabel met betrokken voorwerpen of concepten, acties/berekeningen, en benodigde kennis/vaardigheden voor elk vraagnummer van het VWO 2024 natuurkunde examen, tijdvak 1:
 
 | Vraagnummer | Betrokken voorwerpen/concepten                              | Acties/Berekeningen                                                                                                                       | Benodigde kennis/vaardigheden                                                     |
 |------------------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
@@ -507,9 +505,8 @@ Hier is een tabel met betrokken voorwerpen of concepten, acties/berekeningen, en
 | 22               | Echografie, minimale detailgrootte                            | Bereken de minimale lengte van een detail dat met de echo kan worden waargenomen.                                                              | Begrip van golflengtes en resolutie.                                                 |
 | 23               | Galstenen, schaduwvorming                                     | Geef aan of de verklaringen voor de schaduw juist zijn.                                                                                         | Begrip van geluidsreflectie en absorptie.                                            |
 
-Laat me weten als je aanvullende hulp nodig hebt!
+
 * NAV242VB.TXT
-Hier is een tabel met de betrokken voorwerpen of concepten, acties/berekeningen, en benodigde kennis/vaardigheden voor elk vraagnummer van het VWO 2024 natuurkunde examen, tijdvak 2:
 
 | Vraagnummer | Betrokken voorwerpen/concepten                              | Acties/Berekeningen                                                                                                                       | Benodigde kennis/vaardigheden                                                     |
 |------------------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
@@ -539,4 +536,3 @@ Hier is een tabel met de betrokken voorwerpen of concepten, acties/berekeningen,
 | 26               | Gebouwhoogte, grondfrequentie                                | Toon aan of de gegevens in de tabel een omgekeerd evenredig verband vertonen.                                                                 | Analyse van meetpunten en omgekeerd evenredige relaties.                             |
 | 27               | Aardbevingsfrequentie, schade aan gebouwen                   | Bepaal de frequentiegrenzen van de bodemtrillingen die schade veroorzaakten.                                                                  | Grafiekanalyse, resonantie, en bouwfrequenties.                                       |
 
-Laat me weten als je meer uitleg nodig hebt over specifieke vragen!
