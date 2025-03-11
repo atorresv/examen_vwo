@@ -11,10 +11,10 @@
 
 
 
-
-* A Vaardigheden
-* B Golven
-** B1 Informatieoverdracht
+* VWO 2025
+** A Vaardigheden
+** B Golven
+*** B1 Informatieoverdracht
 
 \[
 f = \frac{1}{T} \tag{1}
@@ -60,7 +60,7 @@ u = A \sin \left( \frac{2\pi}{T} t \right) \tag{8}
 
 
 
-** B2 Medische beeldvorming
+*** B2 Medische beeldvorming
 
 \[
 E_f = hf \tag{1}
@@ -103,8 +103,8 @@ I = I_0 \left( \frac{1}{2} \right)^{\frac{d}{d_{\frac{1}{2}}}} \tag{10}
 \]
 
 
-* C Beweging en wisselwerking
-** 	C1 Kracht en beweging
+** C Beweging en wisselwerking
+*** 	C1 Kracht en beweging
 
 \[
 s = vt, \quad \text{met } v \text{ constant} \tag{1}
@@ -147,7 +147,7 @@ F_{AB} = -F_{BA} \tag{10}
 \]
 
 
-** 	C2 Energie en wisselwerking
+*** 	C2 Energie en wisselwerking
 
 \[
 W = Fs \cos \alpha \tag{1}
@@ -198,7 +198,7 @@ E_v = \frac{1}{2} C u^2 \tag{9}
 \]
 
 
-** 	C3 Gravitatie
+*** 	C3 Gravitatie
 
 \[
 F_g = G \frac{mM}{r^2} \tag{1}
@@ -217,8 +217,8 @@ v = \frac{2\pi r}{T} \tag{4}
 \]
 
 
-* D Lading en veld
-** D1 Elektrische systemen
+** D Lading en veld
+*** D1 Elektrische systemen
 
 \[
 I = \frac{Q}{t} \tag{1}
@@ -273,7 +273,7 @@ E = Pt \tag{12}
 \]
 
 
-** D2 Elektrische en magnetische velden
+*** D2 Elektrische en magnetische velden
 
 
 \[
@@ -313,8 +313,8 @@ U_{\text{ind}} \propto \frac{d\Phi}{dt} \tag{9}
 \]
 
 
-* E Straling en materie
-** E2 Straling en materie
+** E Straling en materie
+*** E2 Straling en materie
 
 
 \[
@@ -350,9 +350,9 @@ P_{\text{bron}} = \sigma A T^4 \tag{8}
 \]
 
 
-** E3 Kern- en deeltjesprocessen (beperkte keuze)
-* F Quantumwereld en relativiteit
-** F1 Quantumwereld 
+*** E3 Kern- en deeltjesprocessen (beperkte keuze)
+** F Quantumwereld en relativiteit
+*** F1 Quantumwereld 
 
 \[
 p = mv \tag{1}
@@ -379,7 +379,7 @@ E_n = n^2 \frac{h^2}{8mL^2} \tag{6}
 \]
 
 
-** F2 relativiteit (beperkte keuze)
+*** F2 relativiteit (beperkte keuze)
 
-* H Natuurwetten en modellen
-** Modelleren
+** H Natuurwetten en modellen
+*** Modelleren
