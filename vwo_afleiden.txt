@@ -1,0 +1,660 @@
+#+TITLE: TRAINING FORMULES AFLEIDEN: VWO 2025 
+#+STARTUP: hidestars
+#+OPTIONS: ^:nil
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup
+#+HTML_HEAD: <style>
+#+HTML_HEAD: body {
+#+HTML_HEAD:   max-width: 1200px; /* Change to your desired width */
+#+HTML_HEAD:   margin: 0 auto;    /* Center the content */
+#+HTML_HEAD: }
+#+HTML_HEAD: </style>
+
+* tips afleiden
+
+
+** Afleiding van de formule voor de minimale ontsnappingssnelheid \( v_{\text{min}} \)
+1. De minimale ontsnappingssnelheid \( v_{\text{min}} \) is de snelheid die een object nodig heeft om de zwaartekracht van de zon te overwinnen.
+
+2. De formule voor de ontsnappingssnelheid wordt afgeleid vanuit de energiebehoudwet, waarbij de kinetische energie van het object gelijk is aan de negatieve zwaartekrachtpotentiële energie:
+   \[
+   \frac{1}{2} m v_{\text{min}}^2 = \frac{GM_{\text{zon}} m}{r}
+   \]
+   waarbij:
+   - \( m \) de massa van het object is,
+   - \( G \) de gravitatieconstante is,
+   - \( M_{\text{zon}} \) de massa van de zon is,
+   - \( r \) de afstand tussen het object en de zon is,
+   - \( v_{\text{min}} \) de minimale ontsnappingssnelheid is.
+
+3. Annuleer de massa \( m \) aan beide zijden van de vergelijking:
+   \[
+   \frac{1}{2} v_{\text{min}}^2 = \frac{GM_{\text{zon}}}{r}
+   \]
+
+4. Vermenigvuldig beide zijden van de vergelijking met 2 om de kinetische energie te isoleren:
+   \[
+   v_{\text{min}}^2 = \frac{2GM_{\text{zon}}}{r}
+   \]
+
+5. Neem de vierkantswortel van beide zijden om \( v_{\text{min}} \) te isoleren:
+   \[
+   v_{\text{min}} = \sqrt{\frac{2GM_{\text{zon}}}{r}}
+   \]
+
+Dit is de afgeleide formule voor de minimale ontsnappingssnelheid \( v_{\text{min}} \) in termen van de massa van de zon \( M_{\text{zon}} \) en de afstand \( r \).
+
+
+** Afleiding van de eenheid van de liftcoëfficiënt \( C_{\text{lift}} \)
+1. De gegeven formule voor de liftkracht is:
+   \[
+   F_{\text{lift}} = \frac{1}{2} \rho A_{\text{vleugel}} C_{\text{lift}} v^2
+   \]
+   waarbij:
+   - \( F_{\text{lift}} \) de liftkracht is,
+   - \( \rho \) de dichtheid van lucht,
+   - \( A_{\text{vleugel}} \) de vleugeloppervlakte,
+   - \( C_{\text{lift}} \) de liftcoëfficiënt,
+   - \( v \) de snelheid ten opzichte van de lucht.
+
+2. Om de eenheid van \( C_{\text{lift}} \) af te leiden, herschrijven we de formule als volgt:
+   \[
+   C_{\text{lift}} = \frac{2 F_{\text{lift}}}{\rho A_{\text{vleugel}} v^2}
+   \]
+
+3. Nu moeten we de eenheden van de andere grootheden gebruiken:
+   - \( F_{\text{lift}} \) heeft de eenheid van kracht, wat Newton (N) is. De eenheid van kracht is \( [\text{N}] = \text{kg} \cdot \text{m/s}^2 \).
+   - \( \rho \) heeft de eenheid van dichtheid, wat \( \text{kg/m}^3 \) is.
+   - \( A_{\text{vleugel}} \) heeft de eenheid van oppervlakte, wat \( \text{m}^2 \) is.
+   - \( v \) heeft de eenheid van snelheid, wat \( \text{m/s} \) is.
+
+4. De eenheid van \( C_{\text{lift}} \) is dus:
+   \[
+   \text{Eenheid van } C_{\text{lift}} = \frac{2 \cdot (\text{kg} \cdot \text{m/s}^2)}{(\text{kg/m}^3) \cdot \text{m}^2 \cdot (\text{m/s})^2}
+   \]
+
+5. Vereenvoudigen van de eenheden:
+   \[
+   \text{Eenheid van } C_{\text{lift}} = \frac{2 \cdot \text{kg} \cdot \text{m/s}^2}{\text{kg} \cdot \text{m}^3 \cdot \text{m}^{-3} \cdot \text{m/s}^2}
+   \]
+
+   Na vereenvoudigen:
+   \[
+   \text{Eenheid van } C_{\text{lift}} = \text{dimensionloos}
+   \]
+
+Dit betekent dat \( C_{\text{lift}} \) geen eenheid heeft en een dimensionloze constante is.
+
+
+** Afleiding van het viriaal-theorema
+1. We beginnen met de **centripetale kracht** die nodig is om een object in een cirkelbaan te houden. Deze kracht wordt gegeven door:
+   \[
+   F_{\text{centripetaal}} = \frac{m v^2}{r}
+   \]
+   waarbij:
+   - \( m \) de massa van de satelliet is,
+   - \( v \) de snelheid van de satelliet is,
+   - \( r \) de straal van de baan is.
+
+2. Deze centripetale kracht wordt geleverd door de **gravitatiekracht**, die gegeven wordt door de formule van de universele gravitatiewet:
+   \[
+   F_{\text{grav}} = \frac{G M m}{r^2}
+   \]
+   waarbij:
+   - \( G \) de gravitatieconstante is,
+   - \( M \) de massa van het centrale hemellichaam (bijvoorbeeld de aarde) is,
+   - \( m \) de massa van de satelliet is,
+   - \( r \) de afstand tussen de massa van het hemellichaam en de satelliet is.
+
+3. Voor evenwicht in de baan geldt:
+   \[
+   F_{\text{centripetaal}} = F_{\text{grav}}
+   \]
+   Dit betekent:
+   \[
+   \frac{m v^2}{r} = \frac{G M m}{r^2}
+   \]
+
+4. Annuleer de massa \( m \) aan beide zijden van de vergelijking:
+   \[
+   \frac{v^2}{r} = \frac{G M}{r^2}
+   \]
+
+5. Vermenigvuldig beide zijden van de vergelijking met \( r \):
+   \[
+   v^2 = \frac{G M}{r}
+   \]
+
+6. Nu kunnen we de **kinetische energie** \( E_k \) van de satelliet schrijven als:
+   \[
+   E_k = \frac{1}{2} m v^2
+   \]
+   Substitueer \( v^2 = \frac{G M}{r} \) in de formule voor \( E_k \):
+   \[
+   E_k = \frac{1}{2} m \frac{G M}{r}
+   \]
+
+7. De **gravitatie-energie** \( E_g \) van de satelliet is gegeven door:
+   \[
+   E_g = -\frac{G M m}{r}
+   \]
+
+8. We kunnen nu de verhouding tussen \( E_g \) en \( E_k \) bepalen:
+   \[
+   E_g = -2 E_k
+   \]
+   Want:
+   \[
+   E_g = -\frac{G M m}{r} \quad \text{en} \quad E_k = \frac{1}{2} m \frac{G M}{r}
+   \]
+
+9. Dus:
+   \[
+   E_g = -2 E_k
+   \]
+   Dit is de afgeleide vorm van het viriaal-theorema voor een object in een cirkelbaan rond een hemellichaam.
+
+
+** Afleiding van de snelheid van de satelliet met behulp van het viriaal-theorema
+1. Het viriaal-theorema stelt dat de gravitatie-energie \( E_g \) van een systeem gelijk is aan de negatieve van twee keer de kinetische energie \( E_k \):
+   \[
+   E_g = -2 E_k
+   \]
+   waarbij:
+   - \( E_g \) de gravitatie-energie is,
+   - \( E_k \) de kinetische energie is.
+
+2. De gravitatie-energie \( E_g \) voor een object van massa \( m \) dat zich in een cirkelbaan bevindt rond een hemellichaam van massa \( M \) op een afstand \( r \) is:
+   \[
+   E_g = -\frac{G M m}{r}
+   \]
+   waarbij:
+   - \( G \) de gravitatieconstante is,
+   - \( M \) de massa van het hemellichaam is,
+   - \( r \) de afstand van de satelliet tot het centrum van het hemellichaam is.
+
+3. De kinetische energie \( E_k \) van de satelliet in een cirkelbaan is:
+   \[
+   E_k = \frac{1}{2} m v^2
+   \]
+   waarbij:
+   - \( m \) de massa van de satelliet is,
+   - \( v \) de snelheid van de satelliet is.
+
+4. Nu gebruiken we het viriaal-theorema en stellen we de gravitatie-energie gelijk aan het negatieve van twee keer de kinetische energie:
+   \[
+   -\frac{G M m}{r} = -2 \cdot \frac{1}{2} m v^2
+   \]
+
+5. Dit vereenvoudigt tot:
+   \[
+   \frac{G M m}{r} = m v^2
+   \]
+
+6. Annuleer de massa \( m \) aan beide zijden van de vergelijking:
+   \[
+   \frac{G M}{r} = v^2
+   \]
+
+7. Neem de vierkantswortel van beide zijden van de vergelijking:
+   \[
+   v = \sqrt{\frac{G M}{r}}
+   \]
+
+Dit is de afgeleide formule voor de snelheid \( v \) van de satelliet in een cirkelbaan rond een hemellichaam van massa \( M \) op een afstand \( r \).
+
+
+** Afleiding van de formule voor de lengte van de energiestap
+1. Het gegeven model gaat uit van een energieniveau-model waar de \( n \)-waardes twee elektronen per niveau bevatten, wat de grondtoestand \( g \) vormt.
+
+2. Als een Rhodamine-6G-molecuul energie absorbeert van een foton, wordt het naar een hoger energieniveau getild. We willen de energie begrijpen die nodig is om een elektron van het hoogste bezette niveau \( n \) naar het volgende \( n+1 \)-niveau te brengen.
+
+3. De energie van een foton is gerelateerd aan zijn golflengte \( \lambda \) door de volgende formule:
+   \[
+   E_{\text{foton}} = \frac{h c}{\lambda}
+   \]
+   waarbij:
+   - \( E_{\text{foton}} \) de energie van het foton is,
+   - \( h \) de constante van Planck is,
+   - \( c \) de lichtsnelheid is,
+   - \( \lambda \) de golflengte van het foton is.
+
+4. De energie die nodig is om een elektron van het hoogste bezette niveau \( n \) naar het volgende niveau \( n+1 \) te verplaatsen, wordt gegeven door:
+   \[
+   \Delta E = E_{n+1} - E_n
+   \]
+   waarbij \( E_n \) de energie van het niveau \( n \) is en \( E_{n+1} \) de energie van het niveau \( n+1 \).
+
+5. De energie van een elektron in een bepaald energieniveau is:
+   \[
+   E_n = -\frac{13.6 \, \text{eV}}{n^2}
+   \]
+   waarbij \( n \) het kwantumgetal is voor dat niveau.
+
+6. Het verschil in energie tussen twee niveaus is:
+   \[
+   \Delta E = -\frac{13.6 \, \text{eV}}{(n+1)^2} + \frac{13.6 \, \text{eV}}{n^2}
+   \]
+
+7. Substitueer deze uitdrukking in de formule voor de golflengte van het foton \( \lambda \):
+   \[
+   \lambda = \frac{hc}{\Delta E}
+   \]
+
+8. Na vereenvoudigen krijgen we de volgende formule voor de golflengte \( L \) van de energiestap:
+   \[
+   L = \sqrt{\frac{\lambda \left( (n+1)^2 - n^2 \right)h}{8m c }}
+   \]
+   waar \( m \) de massa van een elektron is.
+
+Dit is de afgeleide formule voor de golflengte van de energiestap voor de Rhodamine-6G-molecuul in termen van de quantumnummers en andere natuurconstanten.
+
+** Afleiding van de de Broglie-golflengte van elektronen
+#+CAPTION: A figure caption
+#+LABEL: fig:myfigure
+[[file:./thomson.png]]
+
+1. We beginnen met de **de Broglie-golflengte** formule voor een deeltje, die gegeven is door:
+   \[
+   \lambda = \frac{h}{p}
+   \]
+   waarbij:
+   - \( \lambda \) de de Broglie-golflengte is,
+   - \( h \) de constante van Planck is,
+   - \( p \) de impuls van het deeltje is.
+
+2. De impuls \( p \) van een elektron kan worden geschreven als:
+   \[
+   p = m v
+   \]
+   waarbij:
+   - \( m \) de massa van het elektron is,
+   - \( v \) de snelheid van het elektron is.
+
+3. Nu willen we de snelheid \( v \) van het elektron berekenen. Aangezien de elektronen worden versneld door een spanning \( U \), wordt de snelheid van het elektron bepaald door de kinetische energie, die gelijk is aan de toegevoegde elektrische energie:
+   \[
+   E_k = e U
+   \]
+   waarbij:
+   - \( e \) de lading van het elektron is,
+   - \( U \) de versnelling spanning is.
+
+4. De kinetische energie van een elektron is ook gelijk aan:
+   \[
+   E_k = \frac{1}{2} m v^2
+   \]
+
+5. Door de twee uitdrukkingen voor \( E_k \) gelijk te stellen, krijgen we:
+   \[
+   e U = \frac{1}{2} m v^2
+   \]
+
+6. Los nu op naar \( v \):
+   \[
+   v = \sqrt{\frac{2 e U}{m}}
+   \]
+
+7. Vervang de snelheid \( v \) in de formule voor de impuls \( p = m v \):
+   \[
+   p = m \sqrt{\frac{2 e U}{m}} = \sqrt{2 m e U}
+   \]
+
+8. Nu kunnen we de de Broglie-golflengte \( \lambda \) berekenen door de formule \( \lambda = \frac{h}{p} \) te gebruiken:
+   \[
+   \lambda = \frac{h}{\sqrt{2 m e U}}
+   \]
+
+Dit is de afgeleide formule voor de de Broglie-golflengte van een elektron versneld door een spanning \( U \).
+
+
+
+** Afleiding van de formule voor constructieve interferentie
+#+CAPTION: A figure caption
+#+LABEL: fig:myfigure
+[[file:./diffractie.png]]
+
+
+1. We beginnen met de situatie van **elektron diffractie** op een rooster. De elektronenbundel treft het rooster onder een hoek \( \alpha \), wat leidt tot interferentiepatronen op een scherm.
+
+2. Wanneer de elektronen via verschillende paden het rooster bereiken, zal er interferentie optreden. Constructieve interferentie ontstaat wanneer de verschil in padlengte een geheel aantal golflengten is:
+   \[
+   \Delta l = n \lambda
+   \]
+   waarbij:
+   - \( \Delta l \) het verschil in padlengte is,
+   - \( n \) een geheel getal is (de orde van de interferentie),
+   - \( \lambda \) de de Broglie-golflengte van de elektronen is.
+
+3. Het verschil in padlengte \( \Delta l \) is gerelateerd aan de afstand \( d \) tussen de roosterlijnen en de hoek \( \alpha \) waaronder de elektronenbundel de roosterlijn raakt. De padlengte is dan:
+   \[
+   \Delta l = 2 d \sin \alpha
+   \]
+   waar:
+   - \( d \) de afstand tussen de roosterlijnen is,
+   - \( \alpha \) de hoek is waaronder de elektronbundel de roosterlijn raakt.
+
+4. Voor constructieve interferentie geldt dus:
+   \[
+   2 d \sin \alpha = n \lambda
+   \]
+   Dit is de afgeleide formule voor de constructieve interferentie in elektron-diffractie, waarbij \( n = 1, 2, 3, \dots \).
+
+Deze formule laat zien dat constructieve interferentie optreedt wanneer de padlengteverschillen gelijk zijn aan een geheel aantal golflengten van de elektronen.
+
+
+** Afleiding van de de Broglie-golflengte met een effectieve massa
+1. We beginnen met de de Broglie-golflengte voor een deeltje, die gegeven is door de algemene formule:
+   \[
+   \lambda = \frac{h}{p}
+   \]
+   waarbij:
+   - \( \lambda \) de de Broglie-golflengte is,
+   - \( h \) de constante van Planck is,
+   - \( p \) de impuls van het deeltje is.
+
+2. De impuls \( p \) van een deeltje is gerelateerd aan zijn massa \( m \) en snelheid \( v \) door:
+   \[
+   p = m v
+   \]
+   waarbij \( m \) de massa van het deeltje en \( v \) de snelheid van het deeltje is.
+
+3. Voor een elektron in een materiaal is de massa echter de **effectieve massa** \( m_{\text{eff}} \), die verschilt van de rustmassa \( m_e \) door de invloed van het rooster. De effectieve massa wordt gegeven door:
+   \[
+   p = m_{\text{eff}} v
+   \]
+   waarbij \( m_{\text{eff}} \) de effectieve massa is van het elektron.
+
+4. De kinetische energie \( E_k \) van een deeltje is gegeven door:
+   \[
+   E_k = \frac{1}{2} m_{\text{eff}} v^2
+   \]
+
+5. We kunnen de snelheid \( v \) uitdrukken in termen van de kinetische energie \( E_k \):
+   \[
+   v = \sqrt{\frac{2 E_k}{m_{\text{eff}}}}
+   \]
+
+6. Vervang deze uitdrukking voor \( v \) in de impulsformule \( p = m_{\text{eff}} v \):
+   \[
+   p = m_{\text{eff}} \sqrt{\frac{2 E_k}{m_{\text{eff}}}} = \sqrt{2 m_{\text{eff}} E_k}
+   \]
+
+7. Nu kunnen we de de Broglie-golflengte \( \lambda_{\text{B}} \) voor het elektron berekenen door de formule \( \lambda = \frac{h}{p} \) te gebruiken:
+   \[
+   \lambda_{\text{B}} = \frac{h}{\sqrt{2 m_{\text{eff}} E_k}}
+   \]
+
+Dit is de afgeleide formule voor de de Broglie-golflengte van een elektron met een effectieve massa \( m_{\text{eff}} \) en kinetische energie \( E_k \).
+
+** Afleiding van de formule voor de snelheid van een deeltje in een magnetisch veld
+1. We beginnen met de situatie waarin een geladen deeltje beweegt in een homogeen magnetisch veld. Het deeltje ondergaat een **cirkelbeweging** door de Lorentz-kracht die werkt op het deeltje. De Lorentz-kracht is gegeven door:
+   \[
+   F = q v B
+   \]
+   waarbij:
+   - \( q \) de lading van het deeltje is,
+   - \( v \) de snelheid van het deeltje is,
+   - \( B \) de sterkte van het magnetisch veld is.
+
+2. Omdat het deeltje een cirkelbeweging uitvoert, moet de Lorentz-kracht gelijk zijn aan de **centripetale kracht** die nodig is voor de cirkelbeweging. De centripetale kracht is gegeven door:
+   \[
+   F_{\text{centripetaal}} = \frac{m v^2}{r}
+   \]
+   waarbij:
+   - \( m \) de massa van het deeltje is,
+   - \( r \) de straal van de cirkelbaan is.
+
+3. Nu stellen we de Lorentz-kracht gelijk aan de centripetale kracht:
+   \[
+   q v B = \frac{m v^2}{r}
+   \]
+
+4. Deel beide zijden van de vergelijking door \( v \) (aangezien \( v \neq 0 \)):
+   \[
+   q B = \frac{m v}{r}
+   \]
+
+5. Los nu op naar \( v \) (de snelheid van het deeltje):
+   \[
+   v = \frac{q B r}{m}
+   \]
+
+Dit is de afgeleide formule voor de snelheid \( v \) van een deeltje in een magnetisch veld.
+
+** Afleiding van de snelheid en de totale energie van een satelliet
+1. **Berekening van de snelheid van een satelliet:**
+   De snelheid \( v \) van een satelliet die in een lage aardbaan (LEO) beweegt, wordt gegeven door de gravitatiewet. De kracht die de satelliet in een cirkelbaan houdt, is de gravitatiekracht \( F_g \), die gelijk is aan de centripetale kracht:
+   \[
+   F_g = \frac{G M m}{r^2}
+   \]
+   waarbij:
+   - \( G \) de gravitatieconstante is,
+   - \( M \) de massa van de aarde is,
+   - \( m \) de massa van de satelliet is,
+   - \( r \) de straal van de baan is (de afstand van de satelliet tot het centrum van de aarde).
+
+2. De centripetale kracht wordt gegeven door:
+   \[
+   F_{\text{centripetaal}} = \frac{m v^2}{r}
+   \]
+   waarbij:
+   - \( m \) de massa van de satelliet is,
+   - \( v \) de snelheid van de satelliet is.
+
+3. Omdat de gravitatiekracht gelijk is aan de centripetale kracht, kunnen we de twee uitdrukkingen gelijkstellen:
+   \[
+   \frac{G M m}{r^2} = \frac{m v^2}{r}
+   \]
+
+4. Annuleer de massa \( m \) aan beide zijden van de vergelijking en vermenigvuldig beide zijden met \( r \) om de snelheid \( v \) te isoleren:
+   \[
+   \frac{G M}{r} = v^2
+   \]
+
+5. Neem de vierkantswortel van beide zijden om \( v \) te vinden:
+   \[
+   v = \sqrt{\frac{G M}{r}}
+   \]
+   Dit is de afgeleide formule voor de snelheid van een satelliet in een lage aardbaan (LEO).
+
+
+
+** Berekening van de totale energie van een satelliet:**
+  1.  De totale energie \( E_t \) van de satelliet is de som van de kinetische energie \( E_k \) en de gravitatie-energie \( E_g \):
+   \[
+   E_t = E_k + E_g
+   \]
+   waarbij:
+   - \( E_k \) de kinetische energie van de satelliet is,
+   - \( E_g \) de gravitatie-energie van de satelliet is.
+
+ 2.  De kinetische energie \( E_k \) van de satelliet is:
+   \[
+   E_k = \frac{1}{2} m v^2
+   \]
+   De gravitatie-energie \( E_g \) van de satelliet is:
+   \[
+   E_g = -\frac{G M m}{r}
+   \]
+
+3. Door de uitdrukking voor \( v^2 \) in de kinetische energieformule te substitueren:
+   \[
+   E_k = \frac{1}{2} m \cdot \frac{G M}{r}
+   \]
+
+4. De totale energie \( E_t \) is dan:
+   \[
+   E_t = \frac{1}{2} m \cdot \frac{G M}{r} - \frac{G M m}{r}
+   \]
+
+5. Vereenvoudigen van de uitdrukking:
+   \[
+   E_t = -\frac{1}{2} \cdot \frac{G M m}{r}
+   \]
+   Dit is de afgeleide formule voor de totale energie van een satelliet in een lage aardbaan (LEO).
+
+** Afleiding van de ontsnappingssnelheid
+1. De ontsnappingssnelheid is de snelheid die een object nodig heeft om de zwaartekracht van een hemellichaam te overwinnen. Dit betekent dat de kinetische energie van het object gelijk moet zijn aan de negatieve gravitatie-energie.
+
+2. De gravitatie-energie \( E_g \) van een object van massa \( m \) op een afstand \( r \) van een hemellichaam met massa \( M \) wordt gegeven door de gravitatieformule:
+   \[
+   E_g = -\frac{G M m}{r}
+   \]
+   waarbij:
+   - \( G \) de gravitatieconstante is,
+   - \( M \) de massa van het hemellichaam is,
+   - \( m \) de massa van het object is,
+   - \( r \) de afstand van het object tot het centrum van het hemellichaam is.
+
+3. De kinetische energie \( E_k \) van het object is gegeven door:
+   \[
+   E_k = \frac{1}{2} m v^2
+   \]
+   waarbij:
+   - \( m \) de massa van het object is,
+   - \( v \) de snelheid van het object is.
+
+4. Voor ontsnapping aan de zwaartekracht moet de kinetische energie gelijk zijn aan de negatieve gravitatie-energie:
+   \[
+   \frac{1}{2} m v^2 = \frac{G M m}{r}
+   \]
+
+5. Annuleer de massa \( m \) aan beide zijden van de vergelijking:
+   \[
+   \frac{1}{2} v^2 = \frac{G M}{r}
+   \]
+
+6. Vermenigvuldig beide zijden van de vergelijking met 2:
+   \[
+   v^2 = \frac{2 G M}{r}
+   \]
+
+7. Neem de vierkantswortel van beide zijden van de vergelijking om \( v \) te isoleren:
+   \[
+   v = \sqrt{\frac{2 G M}{r}}
+   \]
+
+Dit is de afgeleide formule voor de ontsnappingssnelheid van een object dat uit de gravitatiekracht van een hemellichaam wil ontsnappen.
+
+** Afleiding van de formule voor het geabsorbeerde vermogen van een exoplaneet
+#+CAPTION: A figure caption
+#+LABEL: fig:myfigure
+[[file:./exoplanet.png]]
+
+# Afleiding van de formule voor het geabsorbeerde vermogen van een exoplaneet met de kwadratenwet voor intensiteit
+1. De ster zendt straling uit met een vermogen \( P_{\text{ster}} \). Dit vermogen wordt gedeeltelijk geabsorbeerd door de exoplaneet en gedeeltelijk gereflecteerd. Het gedeelte dat wordt gereflecteerd, heeft een albedo \( \alpha \), waarbij \( 0 \leq \alpha \leq 1 \).
+
+2. De hoeveelheid straling die door de exoplaneet wordt ontvangen, is afhankelijk van de oppervlakte die wordt gepresenteerd aan de ster. De exoplaneet heeft een straal \( R \), dus de oppervlakte van de voorzijde van de planeet (de helft van de bolvormige planeet) die de straling ontvangt is \( A_{\text{front}} = \pi R^2 \).
+
+3. Het totale vermogen dat door de ster wordt uitgestraald, wordt over een gebied verspreid en het vermogen dat de exoplaneet ontvangt is afhankelijk van de afstand van de planeet tot de ster. Dit wordt bepaald door de **kwadratenwet voor intensiteit**, die zegt dat de intensiteit omgekeerd evenredig is met het kwadraat van de afstand \( r \) van de bron. Dit betekent dat de ontvangen intensiteit op de planeet \( I_{\text{ontvangen}} \) gegeven is door:
+   \[
+   I_{\text{ontvangen}} = \frac{P_{\text{ster}}}{4 \pi r^2}
+   \]
+   De factor \( 4 \pi r^2 \) komt van het oppervlak van de bol met straal \( r \), wat de afstand van de ster is.
+
+4. Het vermogen dat de exoplaneet ontvangt wordt dan bepaald door de intensiteit van de straling \( I_{\text{ontvangen}} \) vermenigvuldigd met het oppervlak dat door de planeet wordt gepresenteerd (de voorzijde van de planeet, \( A_{\text{front}} = \pi R^2 \)):
+   \[
+   P_{\text{ontvangen}} = I_{\text{ontvangen}} \times A_{\text{front}} = \frac{P_{\text{ster}}}{4 \pi r^2} \times \pi R^2
+   \]
+
+5. Het vermogen dat door de planeet wordt geabsorbeerd, is afhankelijk van het albedo \( \alpha \). Een deel van de ontvangen straling wordt gereflecteerd, en het resterende deel wordt geabsorbeerd. Dus het geabsorbeerde vermogen \( P_{\text{abs}} \) is:
+   \[
+   P_{\text{abs}} = P_{\text{ontvangen}} (1 - \alpha)
+   \]
+
+   Substitueer de uitdrukking voor \( P_{\text{ontvangen}} \) in bovenstaande formule:
+   \[
+   P_{\text{abs}} = \frac{P_{\text{ster}} R^2}{4 r^2} (1 - \alpha)
+   \]
+
+6. Dit is de afgeleide formule voor het geabsorbeerde vermogen door de exoplaneet, met behulp van de kwadratenwet voor intensiteit en de albedo \( \alpha \):
+   \[
+   P_{\text{abs}} = P_{\text{ster}} \times \frac{R^2}{r^2} (1 - \alpha)
+   \]
+
+
+** Afleiding van de eenheid van de constante \( k \)
+1. De gegeven formule voor de luchtweerstand is:
+   \[
+   F_{w,\text{lucht}} = k v^2
+   \]
+   waarbij:
+   - \( F_{w,\text{lucht}} \) de luchtweerstand is,
+   - \( k \) de constante is die we moeten afleiden,
+   - \( v \) de snelheid is.
+
+2. De eenheid van de luchtweerstand \( F_{w,\text{lucht}} \) is de eenheid van kracht, namelijk Newton (N). De eenheid van kracht is:
+   \[
+   [F_{w,\text{lucht}}] = \text{N} = \text{kg} \cdot \text{m/s}^2
+   \]
+
+3. De eenheid van snelheid \( v \) is meter per seconde (m/s), dus de eenheid van \( v^2 \) is:
+   \[
+   [v^2] = \left(\frac{\text{m}}{\text{s}}\right)^2 = \frac{\text{m}^2}{\text{s}^2}
+   \]
+
+4. De eenheid van de luchtweerstand \( F_{w,\text{lucht}} \) moet gelijk zijn aan de eenheid van \( k v^2 \). Dit betekent dat de eenheid van \( k \) moet voldoen aan:
+   \[
+   [k] \cdot [v^2] = \text{kg} \cdot \text{m/s}^2
+   \]
+
+5. Substitueer de eenheid van \( v^2 \) in de vergelijking:
+   \[
+   [k] \cdot \frac{\text{m}^2}{\text{s}^2} = \text{kg} \cdot \text{m/s}^2
+   \]
+
+6. Los op naar \( [k] \) door beide zijden van de vergelijking te delen door \( \frac{\text{m}^2}{\text{s}^2} \):
+   \[
+   [k] = \frac{\text{kg} \cdot \text{m/s}^2}{\frac{\text{m}^2}{\text{s}^2}} = \frac{\text{kg} \cdot \text{s}^2}{\text{m}}
+   \]
+
+7. De eenheid van \( k \) is dus:
+   \[
+   [k] = \frac{\text{kg} \cdot \text{s}^2}{\text{m}}
+   \]
+
+Dit is de afgeleide eenheid van de constante \( k \) in de luchtweerstandsfomule \( F_{w,\text{lucht}} = k v^2 \).
+
+** Afleiding van de formule voor de straal van de cirkelbaan van een beta-deeltje
+1. Wanneer een geladen deeltje zoals een beta-deeltje beweegt in een magnetisch veld, ondergaat het een **kracht** door het magnetisch veld die het deeltje in een cirkelbaan dwingt. De kracht die het deeltje ondervindt door het magnetisch veld is de Lorentz-kracht, gegeven door de formule:
+   \[
+   F = q v B
+   \]
+   waarbij:
+   - \( F \) de Lorentz-kracht is,
+   - \( q \) de lading van het deeltje is,
+   - \( v \) de snelheid van het deeltje is,
+   - \( B \) de sterkte van het magnetisch veld is.
+
+2. Omdat het deeltje in een cirkelbaan beweegt, is de Lorentz-kracht gelijk aan de **centripetale kracht** die het deeltje in de cirkelbaan houdt. De centripetale kracht wordt gegeven door de formule:
+   \[
+   F_{\text{centripetaal}} = \frac{m v^2}{r}
+   \]
+   waarbij:
+   - \( m \) de massa van het deeltje is,
+   - \( v \) de snelheid van het deeltje is,
+   - \( r \) de straal van de cirkelbaan is.
+
+3. Nu stellen we de Lorentz-kracht gelijk aan de centripetale kracht:
+   \[
+   q v B = \frac{m v^2}{r}
+   \]
+
+4. Annuleer de snelheid \( v \) aan beide zijden van de vergelijking (aangezien \( v \neq 0 \)):
+   \[
+   q B = \frac{m v}{r}
+   \]
+
+5. Los nu op naar \( r \) door beide zijden van de vergelijking te delen door \( q B \):
+   \[
+   r = \frac{m v}{q B}
+   \]
+
+6. De impuls \( P \) van het deeltje is gegeven door \( P = m v \), dus we kunnen \( m v \) vervangen door \( P \):
+   \[
+   r = \frac{P}{q B}
+   \]
+
+Dit is de afgeleide formule voor de straal van de cirkelbaan van een beta-deeltje in een magnetisch veld:
+\[
+r = \frac{P}{B q}
+\]
